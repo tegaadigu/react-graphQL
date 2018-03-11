@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.contact-list {
+  padding: 10px !important;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.contact-list-wrapper {
+  width: 30%;
+  background-color: rgba(221, 221, 221, 0.12);
+  height: 100em;
+  padding: 18px;
+  border-radius: 12px;
+}
+
+.contact-list-wrapper > .ui.list>.item a.header {
+  color: #00000075 !important;
+}
+
+.contact-list-wrapper > .ui.list>.item i {
+  color: #00000075 !important;
+}
